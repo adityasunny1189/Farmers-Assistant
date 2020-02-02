@@ -7,11 +7,11 @@ $con=mysqli_connect("localhost","root");
 if(!$con)
     
 echo "not\n";
-mysqli_select_db($con,'sih');
+mysqli_select_db($con,'sih2');
 $q="SELECT * from login where username='$id' && password='$password' ";
 $result=mysqli_query($con,$q);
 $num=mysqli_num_rows($result);
-if($num==2)
+if($num==1)
 {
     ?> <script> alert('u_p correct');</script>
     <?php

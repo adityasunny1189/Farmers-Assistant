@@ -1,0 +1,81 @@
+body{
+    padding-top: 5%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color:darkgray;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a{
+ text-decoration:none ;
+ color: dimgray;
+ color: white;
+
+
+}
+a:hover{
+    color: red;
+}
+#mainhead
+{margin: auto;
+    background-image: url(headbg1.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius:15px ;
+padding: 20px;
+    border: 100% rosybrown;
+    font-size:110%;
+    font-weight: bolder;
+    color: whitesmoke;
+    
+    letter-spacing: 0.5em;
+}
+.get
+{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(1, 1, 24);
+    font-size: 25px;
+padding:15px;
+
+}
+.get input{
+padding: 7px;
+width:50%;
+
+}
+.get label{
+    display: block;
+    text-align: left;
+    padding-left: 23%;
+}
+
+.cont{
+    border: 3px black;
+    background-image: url(bgg.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+.button{
+    padding-top:1%;
+    padding-left:32% ;
+    width: 35%;
+    color: darkblue;
+    
+}
+#pass{
+    
+    height: 35px;
+    background-color:wheat;
+    color:rgb(1, 1, 24);
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:0.07em;
+}
+#pass:hover{
+    background-color:rgb(6, 37, 12);
+    color:whitesmoke;
+}
