@@ -38,7 +38,7 @@
             <input type="password" class="input" name="pass" placeholder="Password">
           </div>
         </div>
-        <a href="#">Forget Password</a>
+        <a href="remail.php">Forgot Password</a>
         <input type="submit" class="btn" value="Login">
       </form>
     </div>
